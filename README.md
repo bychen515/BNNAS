@@ -31,7 +31,12 @@ cp ../supernet/checkpoint.pth.tar checkpoint.pth.tar
 python3 ea.py
 ```
 
-
+### Step 4: Subnet retraining
+```
+cd BNNAS/retrain
+python3 -m torch.distributed.launch --nproc_per_node=8 train_from_scratch.py \
+                            --train_dir $YOUR_TRAINDATASET_PATH --test_dir $YOUR_TESTDATASET_PATH
+```
 
 ## Thanks
 This implementation of BNNAS is based on [ABS](https://github.com/megvii-model/AngleNAS) and [SPOS](https://github.com/megvii-model/SinglePathOneShot). Please ref to their reposity for more details.
