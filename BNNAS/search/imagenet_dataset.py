@@ -55,8 +55,8 @@ class DataIterator(object):
             _, data = next(self.iterator)
         return data[0], data[1]
 
-train_dir = '/mnt/lustre/lichuming/0chen/Image-pytorch/train'
-val_dir = '/mnt/lustre/lichuming/0chen/Image-pytorch/val'
+train_dir = 'to_be_modified'
+val_dir = 'to_be_modified'
 
 assert os.path.exists(train_dir)
 assert os.path.exists(val_dir)
