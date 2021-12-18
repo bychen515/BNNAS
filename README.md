@@ -5,3 +5,9 @@ Code for [BN-NAS: Neural Architecture Search with Batch Normalization](https://a
 This project is the re-implementation based on [ABS](https://github.com/megvii-model/AngleNAS) and [SPOS](https://github.com/megvii-model/SinglePathOneShot).
 
 
+
+## Thanks
+This implementation of BNNAS is based on [ABS](https://github.com/megvii-model/AngleNAS) and [SPOS](https://github.com/megvii-model/SinglePathOneShot). Please ref to their reposity for more details.
+
+## Citation
+If you find that this project helps your research, please consider citing our paper:
