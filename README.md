@@ -12,6 +12,27 @@ This project is the re-implementation based on [ABS](https://github.com/megvii-m
 The requirements.txt file lists other Python libraries that this project depends on, and they will be installed using:
 pip3 install -r requirements.txt
 
+
+## Usage
+### Step 1: Setup Dataset
+Run `utils/get_flops_lookup_table.sh` to generate flops lookup table which is required in Uniform Sampling.
+
+### Step 2: Training supernet
+```
+cd BNNAS/supernet
+python3 -m torch.distributed.launch --nproc_per_node=8 main.py \
+                                    --train_dir YOUR_TRAINDATASET_PATH
+```
+
+### Step 3: Search subnets
+```
+cd BNNAS/search
+cp ../supernet/checkpoint.pth.tar checkpoint.pth.tar
+python3 ea.py
+```
+
+
+
 ## Thanks
 This implementation of BNNAS is based on [ABS](https://github.com/megvii-model/AngleNAS) and [SPOS](https://github.com/megvii-model/SinglePathOneShot). Please ref to their reposity for more details.
 
