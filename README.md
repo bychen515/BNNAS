@@ -43,6 +43,7 @@ This implementation of BNNAS is based on [ABS](https://github.com/megvii-model/A
 
 ## Citation
 If you find that this project helps your research, please consider citing our paper:
+```
 @inproceedings{chen2021bn,
   title={Bn-nas: Neural architecture search with batch normalization},
   author={Chen, Boyu and Li, Peixia and Li, Baopu and Lin, Chen and Li, Chuming and Sun, Ming and Yan, Junjie and Ouyang, Wanli},
@@ -50,3 +51,4 @@ If you find that this project helps your research, please consider citing our pa
   pages={307--316},
   year={2021}
 }
+```
