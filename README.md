@@ -2,7 +2,9 @@ BN-NAS: Neural Architecture Search with Batch Normalization
 =========================================
 Code for [BN-NAS: Neural Architecture Search with Batch Normalization](https://arxiv.org/abs/2108.07375) accepted by ICCV2021
 
-![](https://github.com/bychen515/BNNAS/blob/master/framework.png)  
+<!-- ![introduce image](framework.png) -->
+<img width="740" height="370" src="framework.png"/>
+
 
 This project is the re-implementation based on [ABS](https://github.com/megvii-model/AngleNAS) and [SPOS](https://github.com/megvii-model/SinglePathOneShot).
 
