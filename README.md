@@ -13,7 +13,7 @@ The requirements.txt file lists other Python libraries that this project depends
 pip3 install -r requirements.txt
 
 ## Results
-|method|    Architecture         |  FLOPs    |   #Params |   Top-1   | Supernet| ea_log| retrain model|
+|method|    Architecture         |  FLOPs    |   Params |   Top-1   | Supernet| ea_log| retrain model|
 |:------:|:---------------------------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
 |BNNAS|[3, -1, 0, 4, 0, -1, -1, 0, 4, -1, 4, 4, 1, 4, 2, 0, 0, 4, 0, 2, 2]  |   473.5M    |	  5.2M    |     75.5    | [supernet](https://drive.google.com/file/d/1FgDm_FX7x1EK2yR0l6flAevp9YyZCaKB/view?usp=sharing)| [ea_log](https://drive.google.com/file/d/1PCsfX9le8H8RmLaBHApL2tSr6Cxmi_EX/view?usp=sharing)| [retrain model](https://drive.google.com/file/d/1PiSZeXnGMTDm1oWraAkBGgsc0dlujexu/view?usp=sharing) |
 
