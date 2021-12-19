@@ -40,6 +40,13 @@ cp ../supernet/checkpoint.pth.tar checkpoint.pth.tar
 python3 ea.py
 ```
 
+### Step 3.5 (optional): Show searching result
+download the [ea_results.pth.tar](https://drive.google.com/file/d/1PCsfX9le8H8RmLaBHApL2tSr6Cxmi_EX/view?usp=sharing) and put it in `BNNAS/search/log`
+```
+cd BNNAS/search
+python3 eval.py
+```
+
 ### Step 4: Subnet retraining
 ```
 cd BNNAS/retrain
