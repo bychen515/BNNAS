@@ -20,6 +20,7 @@ pip3 install -r requirements.txt
 |method|    Architecture         |  FLOPs    |   Params |   Top-1   | Supernet| ea_log| retrain model|
 |:------:|:---------------------------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
 |BNNAS|[3, -1, 0, 4, 0, -1, -1, 0, 4, -1, 4, 4, 1, 4, 2, 0, 0, 4, 0, 2, 2]  |   473.5M    |	  5.2M    |     75.5    | [supernet](https://drive.google.com/file/d/1FgDm_FX7x1EK2yR0l6flAevp9YyZCaKB/view?usp=sharing)| [ea_log](https://drive.google.com/file/d/1PCsfX9le8H8RmLaBHApL2tSr6Cxmi_EX/view?usp=sharing)| [retrain model](https://drive.google.com/file/d/1PiSZeXnGMTDm1oWraAkBGgsc0dlujexu/view?usp=sharing) |
+|SPOS|[0, -1, 0, 0, 4, -1, -1, 2, 0, -1, 4, 4, 3, 0, 2, 1, 0, 4, 2, 5, 2]|468.8M|5.8M| 75.4| [supernet](https://drive.google.com/file/d/1VALEq2Y4vjoZN8hJkSk0HeUBeD8nM31L/view?usp=sharing)| [ea_log](https://drive.google.com/file/d/1y2ei6V1VH2r7wlrV3jnAGcCoQiKaVPx6/view?usp=sharing)| [retrain model](https://drive.google.com/file/d/1TDRt3e-iDTbyn6KkJsBozPbsndH5f9f9/view?usp=sharing) |
 
 
 ## Usage
